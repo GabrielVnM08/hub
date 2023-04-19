@@ -23,6 +23,7 @@ git push -u origin master - usado para enviar as alterações do seu repositóri
 git merge "branch alterada" - isso fará com que a alteração feita em uma branch seja atribuida a branch principal(OBS: é preciso estar na branch principal, para as alterações da outra branch atualizar na principal.)
 
 git clone "link do repo" - faz uma clonagem no repositório do GitHub para um diretório local.
+git pull - após ter cloonado um repositório, isso faz com que quaalquer alteração feita após o git clone, seja atualizada na maquian local.
 
 
 #Vizualizar user#
