@@ -20,7 +20,9 @@ git remote add origin https://github.com/GabrielVnM08/hub.git - Este comando adi
 
 git push -u origin master - usado para enviar as alterações do seu repositório local para um repositório remoto e configurar uma associação de upstream entre os dois repositórios.
 
+git merge "branch alterada" - isso fará com que a alteração feita em uma branch seja atribuida a branch principal(OBS: é preciso estar na branch principal, para as alterações da outra branch atualizar na principal.)
 
+git clone "link do repo" - faz uma clonagem no repositório do GitHub para um diretório local.
 
 
 #Vizualizar user#
