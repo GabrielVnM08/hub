@@ -1,4 +1,4 @@
-Tutorial Git e GitHub.
+Tutorial Git e GitHub(Principais Comandos).
 
 git config --list - exibi uma lista de todas as configurações do Git em seu sistema, incluindo as informações do usuário configuradas.
 
