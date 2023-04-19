@@ -4,7 +4,8 @@ git config --list - exibi uma lista de todas as configurações do Git em seu si
 
 git init - usado para inicializar um novo repositório Git vazio em um diretório existente.
 
-git add - usado para adicionar arquivos ou diretórios ao índice do Git (também conhecido como área de staging), preparando-os para serem incluídos em um commit posterior.
+git add - usado para adicionar arquivos ou diretórios a área de staging do Git, preparando-os para serem incluídos em um commit posterior.
+git add . - adiciona todos os arquivos.
 
 git status - usado para exibir o status atual do seu repositório Git. Ele mostra quais arquivos foram modificados, quais estão prontos para serem commitados e quais ainda não foram adicionados ao índice.
 
@@ -16,3 +17,14 @@ git branch -m "novo-nome" - caso ja esteja na branch que deseja alterar.
 git remote add origin https://github.com/GabrielVnM08/hub.git - Este comando adicionará o repositório remoto com o apelido "origin" ao seu repositório local e apontará para o URL especificado.
 
 git push -u origin master - usado para enviar as alterações do seu repositório local para um repositório remoto e configurar uma associação de upstream entre os dois repositórios.
+
+
+
+
+#Vizualizar user#
+git config user.name
+git config user.email
+
+#Alterar user#
+git config --global user.name "seunome"
+git config --global user.email "seuemail@example.com"
