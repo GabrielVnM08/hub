@@ -24,6 +24,9 @@ git merge "branch alterada" - isso fará com que a alteração feita em uma bran
 
 git clone "link do repo" - faz uma clonagem no repositório do GitHub para um diretório local.
 
+git fetch - Isso buscará as alterações do repositório remoto sem fazer nenhuma mesclagem com seu branch local.
+git pull origin "branch" - para buscar as alterações do repositório remoto e mesclá-las com seu branch local. 
+
 
 #Vizualizar user#
 git config user.name
